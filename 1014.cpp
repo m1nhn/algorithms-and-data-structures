@@ -1,41 +1,40 @@
 /*
-Author : Nguyen Le Minh
-Group : N3251 
-Date : 23/3/2021
-Problem : find the minimal positive integer number Q so that the product of digits of Q is exactly equal to N. (1014's problem)
-*/
+ * Author : Nguyen Le Minh
+ * Group : N3251
+ * Problem : 1014
+ * Date : 23/03/2021
+ */
 #include <iostream>
 using namespace std;
-int n;
-int main(){
-    int num;
-    cin>>num;
-    while(num--)
-    {
-        int n;
-        cin>>n;
-        if(n==0||n==1)
-        {
-            cout<<n<<endl;
-            continue;
-        }
-        string str="";
-        for(int i=9;i>=2;i--)
-        {
-            while(n%i==0)
-            {
-                char ch=('0'+i);
-                str=str+ch;
-                n=n/i;
-            }
-        }
-        if(n!=1) cout<<"-1"<<endl;
-        else
-        {
-            for(int i=str.size()-1;i>=0;i--)
-                cout<<str[i];
-            cout<<endl;
+#define MAX 50
+
+void solve(int n) {
+    int i, j = 0;
+    int res[MAX];
+    if (n == 0) {cout << "10" << endl; return;}
+    if (n >= 1 && n <= 9) { //(If number is smaller than 10 to Q = N)
+        cout << n;
+        return;
+    }
+    for (i = 9; i > 1; i--) {
+        while (n % i == 0) {
+            n /= i;
+            res[j] = i;
+            j++;
         }
     }
-    return 0;
+
+    if (n > 10) {
+        cout << "-1";
+        return;
+    }
+
+    for(int x = j - 1;x >= 0;--x){
+        cout << res[x];
+    }
+}
+
+int main(){
+    int n; cin >> n;
+    solve(n);
 }
