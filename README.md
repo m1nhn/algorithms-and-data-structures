@@ -21,3 +21,28 @@
 6. 1047 Простые вычисления
 <img width="820" alt="image" src="https://user-images.githubusercontent.com/52942703/112196134-501e7880-8c3d-11eb-8b86-254fe7e8febb.png">
 
+# Расчетные задания 2 #
+Необходимо решить задачи, доступные по адресу https://acm.timus.ru/problemset.aspx
+
+Задачи, которые будут решены : 
+1. 1126 - Магнитные бури
+
+<img width="841" alt="image" src="https://user-images.githubusercontent.com/52942703/116798736-f99a3900-ab1c-11eb-833e-dd7ff606ea44.png">
+
+2. 1494 - Монобильярд
+
+<img width="876" alt="image" src="https://user-images.githubusercontent.com/52942703/116798754-336b3f80-ab1d-11eb-8ab3-54545ecee975.png">
+
+3. 1987 - Вложенные отрезки
+
+<img width="882" alt="image" src="https://user-images.githubusercontent.com/52942703/116798767-51d13b00-ab1d-11eb-872c-7498fb148dd0.png">
+
+4. 1471 - Расстояние в дереве 
+
+<img width="854" alt="image" src="https://user-images.githubusercontent.com/52942703/116798785-775e4480-ab1d-11eb-8537-be06ebf6a5f2.png">
+
+5. 1752 - Дерево 2
+
+<img width="860" alt="image" src="https://user-images.githubusercontent.com/52942703/116798796-90ff8c00-ab1d-11eb-8bdb-60eaba360dc4.png">
+
+
